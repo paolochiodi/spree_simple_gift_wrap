@@ -1,0 +1,34 @@
+/*
+Placeholder manifest file.
+the installer will append this file to the app vendored assets here: 'vendor/assets/stylesheets/spree/frontend/all.css'
+*/
+
+@import 'spree/frontend/variables';
+
+#gift_wrap {
+  margin-top: 10px;
+  border: $default_border;
+  padding: 10px;
+
+  legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $base_font_size + 2;
+    color: $link_text_color;
+    padding: 5px;
+    margin-left: 15px;
+  }
+}
+
+#gift_wrap {
+  input[type="text"], input[type="email"],
+  input[type="tel"], input[type="number"],
+  select, textarea {
+    width: 100%;
+  }
+}
+
+p[data-hook="add_gift_wrap"] {
+  background-color: $layout_background_color;
+  padding: 5px;
+}

@@ -1,0 +1,15 @@
+<!-- insert_before 'div[data-hook="buttons"]' -->
+<div class="columns alpha six">
+  <fieldset id="gift_wrap" data-hook>
+    <legend align="center"><%= Spree.t('gift_wrap.checkout.legend') %></legend>
+    <p class="field checkbox" data-hook="add_gift_wrap">
+      <%= form.check_box :gift_wrap %>
+      <%= form.label :gift_wrap, Spree.t('gift_wrap.checkout.label') %>
+    </p>
+    <p class="field">
+      <%= form.label :gift_message, Spree.t('gift_wrap.checkout.message') %>
+      <%= form.text_area :gift_message, rows: 10 %>
+    </p>
+  </fieldset>
+</div>
+<hr class="clear" />

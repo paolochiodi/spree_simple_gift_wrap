@@ -1,0 +1,13 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+    gift_wrap:
+      admin:
+        label: "Gift Wrap"
+        no_message: "No message left"
+      checkout:
+        legend: "Add a gift wrap"
+        label: "This is a gift"
+        text: "Message"

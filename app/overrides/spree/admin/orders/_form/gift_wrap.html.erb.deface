@@ -1,0 +1,11 @@
+<!-- insert_bottom 'div[data-hook="admin_order_form_fields"]' -->
+<% if order.gift_wrap? %>
+  <fieldset class="no-border-bottom">
+    <legend><%= Spree.t('gift_wrap.admin.label') %></legend>
+    <% if order.gift_message.present? %>
+      <%= order.gift_message %>
+    <% else %>
+      <%= Spree.t('gift_wrap.admin.no_message') %>
+    <% end %>
+  </fieldset>
+<% end %>
