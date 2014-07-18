@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_simple_gift_wrap'
   s.version     = '2.3.1'
-  s.summary     = 'Simple gift wrapping option for spree commerces'
+  s.summary     = 'Simple gift wrapping option for spree ecommerce'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Paolo Chiodi'
